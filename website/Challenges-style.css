@@ -1,0 +1,154 @@
+/*WHOLE BODY*/
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+    color: black;
+ }
+body{
+   
+    font-size: 20px;
+    background: black;
+    color: black;
+}
+
+body a{
+    text-decoration:none;
+    color: white;
+}
+/*NAV BAR AND HEADER*/
+.wrap{
+    max-width:100%;
+    min-width:350px;
+    margin: auto;
+}
+.main_header{
+    font-size: 22px;
+    color: black;
+    letter-spacing:4px;
+    background: black;
+    padding: 4px;
+    position: fixed;
+    z-index: 12;
+    height: 75px;
+    width: 100%;
+}
+
+#main_title{
+    display: flex;
+    font-size: 30px;
+    color: #39395f;
+    justify-content: space-between;
+}
+
+#logo{
+    width: 11%;
+    float: left;
+    line-height: 50px;
+    padding-left: 5px;
+    transition: .6s ease;
+
+}
+#logo img{
+    width: 120px;
+}
+#logo:hover{
+    transform: rotate(20deg);
+}
+.Main_Menu{
+    flex: 1;
+    text-align: right;
+}
+.Main_Menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 12px;
+    position: relative;
+}
+.Main_Menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 12px;
+    
+}
+.Main_Menu ul li a:hover{
+    background-color: red;
+    border-radius: 50px;
+    transition: 0.9s;
+}
+
+
+/*BANNER*/
+.vvideo{
+    width: 100%;
+    height: 550px;
+    padding-bottom: 5px;
+    padding-top: 50px;
+}
+.vvideo video{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 1199px;
+    background-color: white;
+   
+}
+.workout1{
+    width: 220px;
+    height: 345px;
+    margin: 20px 20px;
+     display: inline-block;
+       border: 2px solid black;
+}
+
+.workout1 img{
+    width: 100%;
+    height: 100%;
+ 
+
+}
+.workout2{
+    width: 220px;
+    height: 345px;
+    margin: 20px 20px;
+    display: inline-block;
+    border: 2px solid black;
+}
+.workout2 img{
+    width: 100%;
+    height: 100%;
+  
+}
+.workout1:hover{
+    border: 2px solid red;
+    transition: .9;
+    transform: rotate(3deg);
+}
+.workout2:hover{
+    border: 2px solid red;
+    transition: .9;
+    transform: rotate(3deg);
+
+}
+
+/*FOOTER*/
+.footer{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.footer p{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+

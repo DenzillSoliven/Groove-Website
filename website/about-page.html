@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<meta name = "viewport" content="width = device-width, initial-scale=1.0">	
+		<title>About Groove</title>
+		<link rel="stylesheet" href = "stylesheet.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap" rel="stylesheet">
+	</head>
+	<body>
+        <div class="wrap">
+        <nav>
+			<div class="main_header">
+                <div id="main_title">
+                    <div class="logo"><img src="images/groove.png"></div>
+					<div class="Main_Menu">
+						<ul>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="workoutpage.html">WORKOUTS</a></li>
+                            <li><a href="Challenges.html">CHALLENGES</a></li>
+                            <li><a href="about-page.html">ABOUT</a></li>
+                        </ul>
+					</div>   
+				</div>
+			</div>
+         </nav>
+		  </div>
+
+		<!-- This is for bannerbg -->
+        <div class="banner-part">
+                <img src="images/GROOVE-BANNER.png">
+        </div>
+        <hr>
+        <div class="about-content">
+			<div class="box1">
+                <br>
+              <center>  <h3>About Groove</h3><br>
+                <p style="font-family: sans-serif;">Groove is made to help the beginner in fitness industry by giving them an approachable and free learning website. We believe that Health is important and this little steps can make everyone fit. We wanted to help every beginner to create a better and healthier life.</p></center>
+            </div>
+            <div class="box5">
+                <br>
+                <center><h3 style="color: black;">Why we started?</h3><br>
+                <p>Groove was created by only 2 people. A College student partners who was assigned to do a website for their semester. Denzill suggested that they should make a website about home workout because he have a knowledge to as he is a beginner too. They believe that good health is the most important aspect in our life.</p></center>
+            </div>
+        <div><hr size="3"></div>
+            <center><h3 style="background-color: black;">The Developers</h3></center>
+         <div><hr size="3"></div>
+         <div class="container3">
+             <br>
+             <center>
+             <div class="box6">
+                <img src="images/denzill.jpg">
+                 <p>Denzill Soliven</p>
+                 <a href="https://www.facebook.com/denzill.soliven.9"><img src="images/facebook-icon.png" class="icons"></a>
+                 <a href="https://twitter.com/dnzllslvn"><img src="images/twitter-icon.png" class="icons"></a>
+                 
+             </div>
+             <div class="box7">
+                <img src="images/shekinah.jpg">
+                 <p>Shekinah Simolata</p>
+                 <a href="https://www.facebook.com/shekinaheiko"><img src="images/facebook-icon.png" class="icons"></a>
+                 <a href="https://twitter.com/gs_sheki"><img src="images/twitter-icon.png" class="icons"></a>
+             </div>
+            </center>
+         </div>
+        </div>
+        <div><hr size="3"></div>
+		<!-- This is the footer -->
+        <div class="footer">
+            <p>Groove© all rights reserved.</p>
+        </div>
+		<script>
+             var scroll1 = window.pageYOffset;
+            window.onscroll = function(){
+                var scroll2 = window.pageYOffset;
+                if (scroll1 > scroll2) {
+                    document.querySelector('nav').style.top = "0";
+                }
+                else {
+                    document.querySelector('nav').style.top = "-100px";
+                }
+                scroll1 = scroll2;
+            };
+        </script>
+	</body>
+</html>

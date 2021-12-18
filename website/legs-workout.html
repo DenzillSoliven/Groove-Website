@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<meta name = "viewport" content="width = device-width, initial-scale=1.0">	
+		<title>Chest Workouts</title>
+		<link rel="stylesheet" href = "Chest_workout-style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap" rel="stylesheet">
+	</head>
+	<body>
+        <div class="wrap">
+        <nav>
+			<div class="main_header">
+                <div id="main_title">
+                    <div class="logo"><img src="images/groove.png"></div>
+					<div class="Main_Menu">
+						<ul>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="workoutpage.html">WORKOUTS</a></li>
+                            <li><a href="Challenges.html">CHALLENGES</a></li>
+                            <li><a href="about-page.html">ABOUT</a></li>
+                        </ul>
+					</div>   
+				</div>
+			</div>
+         </nav>
+		  </div>
+        <div class="banner-part">
+                <img src="images/LEGS_WORKOUT-banner.png">
+        </div>
+            <div class="container">
+            <p>With and Without equipment</p>
+          
+            <div class="workout1">
+                 <a href="Squats.html">
+                <img src="images/LEGS%209.png">
+                </a>
+            </div>
+            <div class="workout1"> <a href="Donkey-kicks.html">
+                <img src="images/LEGS%202.png">
+                </a></div>
+            <div class="workout1"> <a href="Duck-walks.html">
+                <img src="images/LEGS%203.png">
+                </a></div>
+            <div class="workout1"> <a href="Lunges.html">
+                <img src="images/LEGS%205.png">
+                </a></div>
+            <div class="workout2"> <a href="Bulgarian-split-squats.html">
+                <img src="images/LEGS%201.png">
+                </a></div>
+            <div class="workout2"> <a href="Reverse-lunges.html">
+                <img src="images/LEGS%206.png">
+                </a></div>
+            <div class="workout2"> <a href="Romanian-dead-lift.html">
+                <img src="images/LEGS%207.png">
+                </a></div>
+            <div class="workout2"> <a href="Sumo-squats.html">
+                <img src="images/LEGS%2010.png">
+                </a></div>
+            <div class="workout3"> <a href="Side-lunges.html">
+                <img src="images/LEGS%208.png">
+                </a></div>
+            </div>
+	
+          <div>
+              <div><hr size="3"></div>
+		</div>
+		<!-- This is the footer -->
+        <div class="footer">
+            <p>Groove© all rights reserved.</p>
+        </div>
+		
+        <script>
+            var scroll1 = window.pageYOffset;
+            window.onscroll = function(){
+                var scroll2 = window.pageYOffset;
+                if (scroll1 > scroll2) {
+                    document.querySelector('nav').style.top = "0";
+                }
+                else {
+                    document.querySelector('nav').style.top = "-100px";
+                }
+                scroll1 = scroll2;
+            }
+        </script>
+	</body>
+</html>

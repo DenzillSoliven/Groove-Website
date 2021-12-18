@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<meta name = "viewport" content="width = device-width, initial-scale=1.0">	
+		<title>Challenge 1</title>
+		<link rel="stylesheet" href = "workouts_onclick.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap" rel="stylesheet">
+	</head>
+	<body>
+        <div class="wrap">
+        <nav>
+			<div class="main_header">
+                <div id="main_title">
+                    <div class="logo"><img src="images/groove.png"></div>
+					<div class="Main_Menu">
+						<ul>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="workoutpage.html">WORKOUTS</a></li>
+                            <li><a href="Challenges.html">CHALLENGES</a></li>
+                            <li><a href="about-page.html">ABOUT</a></li>
+                        </ul>
+					</div>   
+				</div>
+			</div>
+         </nav>
+		  </div>
+       <div class="workout-part">
+           <br><br><br>
+           <center><img src="images/Challenge5.jpg" style="height: 730px;">
+               <p>Source: https://www.pinterest.ph/pin/511580838907336045/</p>
+            </center>
+           <center><a href="images/Challenge5.jpg" download><button class="btn"><i class="fa fa-download"></i> Download</button></a></center>
+       </div>
+       
+	
+          <div>
+              <div><hr size="3"></div>
+		</div>
+		<!-- This is the footer -->
+        <div class="footer">
+          
+            <p>Groove© all rights reserved.</p>
+        </div>
+		
+        <script>
+            var scroll1 = window.pageYOffset;
+            window.onscroll = function(){
+                var scroll2 = window.pageYOffset;
+                if (scroll1 > scroll2) {
+                    document.querySelector('nav').style.top = "0";
+                }
+                else {
+                    document.querySelector('nav').style.top = "-100px";
+                }
+                scroll1 = scroll2;
+            }
+        </script>
+	</body>
+</html>

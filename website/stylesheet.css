@@ -1,0 +1,405 @@
+/*WHOLE BODY*/
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+ }
+body{
+    height: 100vh;
+    font-size: 20px;
+    background: black;
+    color: black;
+    justify-content: center;
+}
+
+body a{
+    text-decoration:none;
+    color: white;
+}
+/*NAV BAR AND HEADER*/
+.wrap{
+    max-width:100%;
+    min-width:350px;
+    margin: auto;
+}
+.main_header{
+     font-size: 22px;
+    color: black;
+    letter-spacing:4px;
+    padding: 4px;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+}
+
+#main_title{
+    display: flex;
+    font-size: 30px;
+    color: #39395f;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    width: 11%;
+    float: center left;
+    line-height: 50px;
+    padding-left: 5px;
+    transition: .6s ease;
+
+}
+.logo img{
+    width: 120px;
+}
+.logo:hover{
+    transform: rotate(20deg);
+}
+nav{
+    position: fixed;
+    box-shadow: 0px 4px 10px rgba(0.3);
+    font-size: 22px;
+    color: black;
+    letter-spacing:12px;
+    background: rgba(0,0,0,0.6);
+    padding: 4px;
+    height: 80px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+nav .Main_Menu{
+    flex: 1;
+    text-align: right;
+}
+nav .Main_Menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 12px;
+    position: relative;
+}
+nav .Main_Menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 12px;
+}
+nav .Main_Menu ul li a:hover{
+    background-color: red;
+    border-radius: 50px;
+    transition: 0.9s;
+    
+}
+
+/*BANNER*/
+
+.banner-part{
+    width: 100%;
+    height: 600px;
+    align-content: center;
+    background-size: cover;
+    color: black;
+}
+.banner-part img{
+    padding-top: 80px;
+    width: 100%;
+    height: 100%;
+}
+
+.button-part{
+    width: 200px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 12px 34px;
+    font-size: 20px;
+}
+.button-part:hover{
+    background:black ;
+    color: white;   
+}
+/*COLLECTIONS*/
+#topheader{
+    font-size: 25px;
+}
+.content{
+    height: 1500px;
+    background: white;
+}
+.container{
+    width: 100%;
+    height: 700px;
+    padding-bottom: 5px;
+}
+
+.box1{
+    height: 100%;;
+    width: 100%;
+    justify-content: center;
+    
+}
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.box2{
+    height: 290px;
+    width: 100%;
+    background-color: black;
+    
+}
+h4{
+    color: white;
+}
+.box2 p{
+    
+    width: 100%;
+    font-family: sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    color: white;
+}
+.button{
+    width: 250px;
+    padding: 12px;
+    border: 3px solid white;
+    color: white;
+}
+.button:hover{
+    background: red;
+    color: white;
+}
+.container2{
+    width: 100%;
+    height: 700px;
+    padding-bottom: 5px;
+
+}
+/* Slideshow container */
+.slideshow-container2 {
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+
+/* The dots/bullets/indicators */
+.dotsec {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+.secSlide img{
+    width: 100%;
+}
+
+/* Fading animation */
+.secfade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes secfade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes secfade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.box4{
+    height: 290px;
+    width: 100%;
+    background-color: black;
+    
+}
+h4{
+    color: white;
+}
+.box4 p{
+    
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    color: white;
+}
+.button2{
+    width: 250px;
+    padding: 12px;
+    border: 3px solid white;
+    margin-left: 100px;
+    color: white;
+}
+.button2:hover{
+    background: red;
+    color: white;
+}
+/*FOOTER*/
+.footer{
+    padding: 0;
+    margin: 0;
+}
+.footer p{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+.Developer{
+    color:white;
+    text-align: center;
+}
+.Developer img{
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.devname{
+    color: white;
+}
+
+/*About page css*/
+.box1 {
+    width: 100%;
+    height: 300px;
+    line-height: 1.6;
+    background-color: black;
+}
+.box1 p{
+    color: white;
+}
+h3{
+    color: white;
+}
+.box5 {
+    width: 100%;
+    height: 300px;
+    line-height: 1.6;
+    background-color: white;
+}
+.box6{
+    padding-left: 5px;
+    float: left;
+    height: 470px;
+    width: 50%;
+
+}
+.box6 img{
+    height: 450px;
+    width: 400px;
+    border-radius: 25px;
+    border: 2px solid white;
+}
+.box6 p{
+    text-align: center;
+}
+.box7{
+    padding-left: 5px;
+    float: right;
+    height: 470px;
+    width: 50%;
+}
+.box7 img{
+    height: 450px;
+    width: 400px;
+    border-radius: 25px;
+    border: 2px solid white;
+}
+.box7 p{
+    text-align: center;
+}
+.box6 .icons{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+}
+.box7 .icons{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+
+}
+.box6 .icons:hover{
+    transform: rotate(10deg);
+    transition: .5;
+    border: 2px solid white;
+}
+.box7 .icons:hover{
+    transform: rotate(10deg);
+    transition: .5;
+    border: 2px solid white;
+}
+.about-content{
+    height: 1200px;
+    background: white;
+}
+.container3{
+    width: 100%;
+    height: 600px;
+    padding-bottom: 5px;
+    background-color: black;
+
+}
+.container3 p{
+    color: white;
+}

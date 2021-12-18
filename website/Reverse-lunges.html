@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<meta name = "viewport" content="width = device-width, initial-scale=1.0">	
+		<title>Legs Workouts</title>
+		<link rel="stylesheet" href = "long-workouts-style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap" rel="stylesheet">
+	</head>
+	<body>
+        <div class="wrap">
+        <nav>
+			<div class="main_header">
+                <div id="main_title">
+                    <div class="logo"><img src="images/groove.png"></div>
+					<div class="Main_Menu">
+						<ul>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="workoutpage.html">WORKOUTS</a></li>
+                            <li><a href="Challenges.html">CHALLENGES</a></li>
+                            <li><a href="about-page.html">ABOUT</a></li>
+                        </ul>
+					</div>   
+				</div>
+			</div>
+         </nav>
+		  </div>
+       <div class="workout-part">
+           <br><br><br>
+            <center><h3>Reverse lunges</h3></center>
+           <center><iframe width="500" height="500"
+src="https://www.youtube.com/embed/byeg1PYnvL0">
+</iframe>
+            </center>
+           <p><b>How to:</b>Stand with your feet slightly apart, your back upright and the dumbbells by your sides. Step back into a lunge, bending your back leg so that your back knee nearly touches the floor.
+Keep your torso upright throughout the move and make sure your front knee is over your front toe.
+Push off the back foot to return to the start.
+
+
+           </p>
+           <a href="legs-workout.html"><button class="btn1"> Back</button></a>
+       </div>
+        <div>
+              <div><hr size="3"></div>
+		</div>
+            <div class="container">
+            <p>Other Workouts: </p>
+              <div class="workout2"> <a href="Bulgarian-split-squats.html">
+                <img src="images/LEGS%201.png">
+                </a></div>
+            <div class="workout2"> <a href="Romanian-dead-lift.html">
+                <img src="images/LEGS%207.png">
+                </a></div>
+            <div class="workout2"> <a href="Sumo-squats.html">
+                <img src="images/LEGS%2010.png">
+                </a></div>
+            <div class="workout1"> <a href="Side-lunges.html">
+                <img src="images/LEGS%208.png">
+                </a></div>
+            </div>
+	
+          <div>
+              <div><hr size="3"></div>
+		</div>
+		<!-- This is the footer -->
+        <div class="footer">
+            <p>Groove© all rights reserved.</p>
+        </div>
+		
+        <script>
+            var scroll1 = window.pageYOffset;
+            window.onscroll = function(){
+                var scroll2 = window.pageYOffset;
+                if (scroll1 > scroll2) {
+                    document.querySelector('nav').style.top = "0";
+                }
+                else {
+                    document.querySelector('nav').style.top = "-100px";
+                }
+                scroll1 = scroll2;
+            }
+        </script>
+	</body>
+</html>
