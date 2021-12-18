@@ -1,0 +1,180 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<meta name = "viewport" content="width = device-width, initial-scale=1.0">	
+		<title>Groove</title>
+		<link rel="stylesheet" href = "stylesheet.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap" rel="stylesheet">
+	</head>
+	<body>
+        <div class="wrap">
+        <nav>
+			<div class="main_header">
+                <div id="main_title">
+                    <div class="logo"><img src="images/groove.png"></div>
+					<div class="Main_Menu">
+						<ul>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="workoutpage.html">WORKOUTS</a></li>
+                            <li><a href="Challenges.html">CHALLENGES</a></li>
+                            <li><a href="about-page.html">ABOUT</a></li>
+                        </ul>
+					</div>   
+				</div>
+			</div>
+         </nav>
+		  </div>
+
+		<!-- This is for bannerbg -->
+        <div class="banner-part">
+                <img src="images/GROOVE-BANNER.png">
+<!--            <div class="button-part"><a href="#">Sweat it!</a></div>-->
+        </div>
+		<div class="content">
+			<div id="topheader"><center>SWEAT IT YOURSELF!</center></div>
+            <div><hr size="3"></div>
+            
+				<div class="container">
+               
+
+                    <div class="slideshow-container">
+
+                        <div class="mySlides fade">
+                            <img src="images/BICEPS_BANNER.png" style="width:100%">
+                        </div>
+
+                        <div class="mySlides fade">
+                            <img src="images/CHEST_BANNER.png" style="width:100%">
+                        </div>
+
+                        <div class="mySlides fade">
+                            <img src="images/LEGS_WORKOUT-banner.png" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides fade">
+                            <img src="images/ABS_BANNER.png" style="width:100%">
+                        </div>
+
+                    </div>
+                    
+
+                    <div style="text-align:center">
+                        <span class="dot"></span> 
+                        <span class="dot"></span> 
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <hr>
+    
+
+                     <div class="box2">
+				         <br>
+				            <center><h4>Start Honing your body With us!</h4></center>
+                        <br>
+                       <center> <p>Groove is here to help you with your body Journey!
+                        Fitness for every beginner that is accesible everywhere,anywhere.
+                        We are here to help youlet out the sweat of your stress!</p></center>
+                         <center><a href="workoutpage.html"><div class="button">See Workouts</div></a></center>
+                    </div>
+                </div>
+            <br>
+            <br>
+        <div><hr size="3"></div>
+         <div class="container2">
+                    
+                    
+                    <div class="slideshow-container2">
+
+<div class="secSlides secfade">
+  <img src="images/challengeslideshow3.jpg" style="height: 385px; width: 100%;">
+</div>
+
+<div class="secSlides secfade">
+  <img src="images/challengeslideshow2.jpg" style="height: 385px; width: 100%;">
+</div>
+
+<div class="secSlides secfade">
+  <img src="images/challengeslideshow1.jpg" style="height: 385px; width: 100%;">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dotsec"></span> 
+  <span class="dotsec"></span> 
+  <span class="dotsec"></span> 
+</div>
+
+                    <hr>
+              <div class="box4">
+				         <br>
+				            <center><h4>CHALLENGE YOURSELF!</h4></center>
+                      <center> <p>In Groove, We collected various Challenges that we'd like you to try in your journey! Rest assured that all you need is your body weight! </p></center>
+                  <br>
+                          <center><a href="Challenges.html"><div class="button2">See Challenges</div></a></center>
+                    </div>
+        </div>
+        <div><hr size="3"></div>
+		<!-- This is the footer -->
+        <div class="footer">
+            <p>Groove© all rights reserved.</p>
+        </div>
+		
+        <script>
+            var scroll1 = window.pageYOffset;
+            window.onscroll = function(){
+                var scroll2 = window.pageYOffset;
+                if (scroll1 > scroll2) {
+                    document.querySelector('nav').style.top = "0";
+                }
+                else {
+                    document.querySelector('nav').style.top = "-100px";
+                }
+                scroll1 = scroll2;
+            };
+            
+           var slideIndex = 0;
+            showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 4000); // Change image every 2 seconds
+};
+           var secslideIndex = 0;
+secshowSlides();
+
+function secshowSlides() {
+  var a;
+  var slides = document.getElementsByClassName("secSlides");
+  var dots = document.getElementsByClassName("dotsec");
+  for (a = 0; a < slides.length; a++) {
+    slides[a].style.display = "none";  
+  }
+  secslideIndex++;
+  if (secslideIndex > slides.length) {secslideIndex = 1}    
+  for (a = 0; a < dots.length; a++) {
+    dots[a].className = dots[a].className.replace(" active", "");
+  }
+  slides[secslideIndex-1].style.display = "block";  
+  dots[secslideIndex-1].className += " active";
+  setTimeout(secshowSlides, 4000); // Change image every 2 seconds
+}
+        </script>
+	</body>
+</html>
